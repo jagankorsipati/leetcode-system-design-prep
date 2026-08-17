@@ -28,7 +28,7 @@ The brute force checks every pair — O(n²). The key insight: for each number, 
 
 ## Visual
 
-![Two Sum hash map walkthrough](diagram.svg)
+![Two Sum hash map walkthrough](two-sum.gif)
 
 ## Solution
 
