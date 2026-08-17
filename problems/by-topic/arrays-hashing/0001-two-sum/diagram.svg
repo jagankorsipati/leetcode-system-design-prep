@@ -1,0 +1,43 @@
+<svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Two Sum hash map walkthrough</title>
+  <desc>Array [2,7,11,15], target 9. Walking left to right, checking if target minus current value is already in the hash map, then storing current value with its index.</desc>
+
+  <!-- nums array -->
+  <text x="20" y="30" font-family="sans-serif" font-size="13" fill="#3d3d3a">nums = [2, 7, 11, 15]   target = 9</text>
+
+  <g font-family="sans-serif" font-size="14">
+    <rect x="20"  y="50" width="60" height="44" rx="6" fill="#E6F1FB" stroke="#378ADD" stroke-width="1"/>
+    <text x="50" y="77" text-anchor="middle" fill="#0C447C">2</text>
+
+    <rect x="90"  y="50" width="60" height="44" rx="6" fill="#FAC775" stroke="#BA7517" stroke-width="1.5"/>
+    <text x="120" y="77" text-anchor="middle" fill="#633806">7</text>
+
+    <rect x="160" y="50" width="60" height="44" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+    <text x="190" y="77" text-anchor="middle" fill="#444441">11</text>
+
+    <rect x="230" y="50" width="60" height="44" rx="6" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+    <text x="260" y="77" text-anchor="middle" fill="#444441">15</text>
+  </g>
+
+  <text x="120" y="112" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#993c1d">current: i=1, val=7</text>
+
+  <!-- arrow down to hashmap check -->
+  <line x1="120" y1="118" x2="120" y2="140" stroke="#993c1d" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#993c1d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text x="120" y="158" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#3d3d3a">complement = 9 - 7 = 2</text>
+  <text x="120" y="178" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F6E56">map.containsKey(2)? YES (index 0)</text>
+
+  <!-- hashmap state box -->
+  <rect x="380" y="50" width="260" height="150" rx="10" fill="#F1EFE8" stroke="#888780" stroke-width="1"/>
+  <text x="400" y="72" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2C2C2A">HashMap state before step</text>
+  <text x="400" y="98" font-family="sans-serif" font-size="13" fill="#444441">{ 2 : 0 }</text>
+  <text x="400" y="120" font-family="sans-serif" font-size="12" fill="#888780">(value -&gt; index, built as we scan)</text>
+
+  <text x="120" y="220" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#085041">Match found -&gt; return [0, 1]</text>
+</svg>
