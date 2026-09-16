@@ -11,13 +11,18 @@ Personal interview prep log — Java solutions with explanations and diagrams, p
 
 ## Progress
 
+## Progress
+
 | # | Problem | Topic | Difficulty | Pattern | Status |
 |---|---------|-------|------------|---------|--------|
 | 1 | [Two Sum](problems/by-topic/arrays-hashing/0001-two-sum) | Arrays & Hashing | Easy | Hash Map | ✅ |
+| 2 | [Diameter of Binary Tree](problems/by-topic/trees/0543-diameter-of-binary-tree) | Trees | Easy | DFS / tree height | ✅ |
+| 3 | [Simplify Path](problems/by-topic/stack/0071-simplify-path) | Stack | Medium | Stack | ✅ |
+| 4 | [Container With Most Water](problems/by-topic/two-pointers/0011-container-with-most-water) | Two Pointers | Medium | Two Pointers | ✅ |
 
 _(Add a row per problem as you go — see `templates/PROBLEM_TEMPLATE.md` for the per-problem format.)_
 
-**Stats:** 1 solved · 1 Easy · 0 Medium · 0 Hard
+**Stats:** 4 solved · 2 Easy · 2 Medium · 0 Hard
 
 ## Legend
 
