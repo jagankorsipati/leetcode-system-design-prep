@@ -19,6 +19,8 @@ Personal interview prep log — Java solutions with explanations and diagrams, p
 | 2 | [Diameter of Binary Tree](problems/by-topic/trees/0543-diameter-of-binary-tree) | Trees | Easy | DFS / tree height | ✅ |
 | 3 | [Simplify Path](problems/by-topic/stack/0071-simplify-path) | Stack | Medium | Stack | ✅ |
 | 4 | [Container With Most Water](problems/by-topic/two-pointers/0011-container-with-most-water) | Two Pointers | Medium | Two Pointers | ✅ |
+| 5 | [Two Sum II](problems/by-topic/two-pointers/0167-two-sum-ii-input-array-is-sorted) | Two Pointers | Medium | Two Pointers | ✅ |
+| 6 | [3Sum](problems/by-topic/two-pointers/0015-3sum) | Sorting, Two Pointers | Medium | Sorting + Two Pointers | ✅ |
 
 _(Add a row per problem as you go — see `templates/PROBLEM_TEMPLATE.md` for the per-problem format.)_
 
